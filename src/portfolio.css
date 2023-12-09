@@ -1,2 +1,38 @@
 /*font-family: 'Libre Baskerville', serif;
 font-family: 'Nunito', sans-serif;*/
+:root{
+    --primary-text-color: #000000;
+}
+.container {
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(to bottom, #e5e4e7,#cec3d9);
+}
+.header{
+    color: var(--primary-text-color);
+}
+a.navbar-brand {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+a.nav-link {
+    color: var(--primary-text-color);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.developer {
+  font-size: 18px;
+  padding-top: 3em;
+}
+.name {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-size: 25px;
+}
+.intro {
+  font-size: 10px;
+  font-weight: 600;
+  padding-bottom: 12em;
+}
