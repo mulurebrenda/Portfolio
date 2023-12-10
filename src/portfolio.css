@@ -5,10 +5,11 @@ font-family: 'Nunito', sans-serif;*/
 }
 .container {
   font-family: "Nunito", sans-serif;
-  background: linear-gradient(to bottom, #e5e4e7,#cec3d9);
+  background: linear-gradient(to bottom, #fefefe, #C0BABA, #ffffff);
+  color: var(--primary-text-color);
 }
 .header{
-    color: var(--primary-text-color);
+   background: linear-gradient(to bottom,#b0afb0, #f8f6f8f5, #d6d2d2); 
 }
 a.navbar-brand {
   font-family: "Libre Baskerville", serif;
@@ -23,7 +24,7 @@ a.nav-link {
 
 .developer {
   font-size: 18px;
-  padding-top: 3em;
+  padding-top: 1.4em;
 }
 .name {
   font-family: "Libre Baskerville", serif;
@@ -34,5 +35,54 @@ a.nav-link {
 .intro {
   font-size: 10px;
   font-weight: 600;
-  padding-bottom: 12em;
+  padding-bottom: 4em;
 }
+.about{
+    flex-wrap: wrap;
+}
+.my-photo, .about-me{
+    flex: 1;
+    margin: 1em;
+}
+.hr-about{
+    color: #9335ff;
+}
+.about-me{
+    font-size: 11px;
+}
+.about-intro{
+    font-size: 20px;
+}
+a.btn{
+    border-radius: 4px;
+    background: #9470b8;
+    color: #ffffff;
+    font-size: 10px;
+}
+a.btn:hover{
+    color: #9470b8;
+    border: 1px solid #9470b8;
+}
+.skills{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+hr.horizontal{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+.services{
+    font-size: 10px;
+}
+
+ .service-1, .service-2, .service-3, .service-4, .service-5, .service-6{
+    background-color: #d8d2dd;
+    margin-bottom: 1em;
+    font-size: 11px;
+    font-weight: 700;
+ } 
