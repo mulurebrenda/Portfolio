@@ -45,7 +45,7 @@ a.nav-link {
     margin: 1em;
 }
 .hr-about{
-    color: #9335ff;
+    width: 18%;
 }
 .about-me{
     font-size: 11px;
@@ -86,3 +86,9 @@ ul{
     font-size: 11px;
     font-weight: 700;
  } 
+@media (max-width:768px) {
+    hr.hr-about{
+        width: 22%;
+        margin: 12px auto;
+    }
+}
