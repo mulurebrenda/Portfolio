@@ -58,6 +58,15 @@ a.nav-link {
 .about-intro {
   font-size: 20px;
 }
+.details {
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.DOB,
+.age,
+.location {
+  flex-grow: 1;
+}
 a.btn {
   border-radius: 4px;
   background: var(--button-color);
@@ -76,8 +85,20 @@ a.btn:hover {
   border: 1px solid #69402a;
 }
 .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 75%;
   font-family: var(--heading-font);
   font-size: 12px;
+}
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6 {
+  flex-grow: 1;
 }
 hr.horizontal {
   display: block;
@@ -179,6 +200,6 @@ footer {
   font-size: 14px;
   color: var(--link-hover-color);
 }
-.credits{
+.credits {
   font-size: 10px;
 }
