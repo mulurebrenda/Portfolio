@@ -55,6 +55,11 @@ a.nav-link {
 .about-me {
   font-size: 11px;
 }
+.about-img{
+  flex: 1;
+  display: block;
+  margin: 0 auto;
+}
 .about-intro {
   font-size: 20px;
 }
@@ -119,7 +124,6 @@ hr.horizontal {
   font-size: 10px;
   font-weight: 700;
 }
-
 h3.project-title {
   font-size: 18px;
   font-family: var(--heading-font);
@@ -154,10 +158,18 @@ p.about-project {
 img {
   max-height: 300px;
 }
-@media (max-width: 768px) {
+div.tech-stack p{
+  font-size: 0.8em;
+  font-weight: 700;
+}
+p{
+  line-height: 20px;
+}
+@media (max-width: 992px) {
   div.container {
     max-width: 80%;
   }
+
   hr.hr-about {
     width: 22%;
     margin: 12px auto;
